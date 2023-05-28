@@ -1,0 +1,7 @@
+body {
+  margin: 0 !important;
+}
+
+.woocommerce-page div.product div.images{
+  width: unset !important;
+}
