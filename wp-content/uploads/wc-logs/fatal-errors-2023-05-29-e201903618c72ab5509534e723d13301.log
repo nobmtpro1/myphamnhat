@@ -1,0 +1,2 @@
+2023-05-29T06:20:24+00:00 CRITICAL Out of memory (allocated 92274688 bytes) (tried to allocate 32768 bytes) in C:\xampp\htdocs\woo2\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Payments\Integrations\PayPal.php on line 1
+
