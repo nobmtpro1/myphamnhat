@@ -1,2 +1,634 @@
 2023-05-29T07:47:08+00:00 CRITICAL Out of memory (allocated 31457280) (tried to allocate 131072 bytes) in C:\xampp\htdocs\woo2\wp-content\plugins\elementskit\widgets\woo-mini-cart\woo-mini-cart.php on line 1035
 
+2023-05-29T13:25:31+00:00 CRITICAL Out of memory (allocated 94371840) (tried to allocate 32768 bytes) in C:\xampp\htdocs\woo2\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Payments\Integrations\AbstractPaymentMethodType.php on line 1
+
+2023-05-29T15:20:22+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:22+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:28+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:30+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:30+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:30+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:30+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:31+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:31+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:34+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:34+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T15:20:34+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:00+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:13+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:30+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:34+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:34+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:34+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:35+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:35+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:35+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:35+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:38+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:38+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:38+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:48+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:48+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:48+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:48+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:49+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:50+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:50+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:54+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:01:55+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:00+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:01+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:01+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:03+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:03+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:03+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:04+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:05+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:05+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:05+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:06+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:07+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:07+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:08+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:08+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:08+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:10+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:10+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:10+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:10+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:10+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:10+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:10+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:10+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:11+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:11+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:11+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:11+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+
+2023-05-29T16:03:11+00:00 CRITICAL Uncaught Error: Class 'UniteFunctionsUG' not found in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php:19
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php(127): ProviderOperationsUC->getSearchFromData(Array)
+#1 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\inc_php\unitecreator_actions.class.php(434): ProviderOperationsUC->getTermsListForSelectFromData(Array)
+#2 C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\unitecreator_admin.php(340): UniteCreatorActions->onAjaxAction()
+#3 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(308): UniteCreatorAdmin::onAjaxAction('')
+#4 C:\xampp\htdocs\woo2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\woo2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\woo2\wp-admin\admin-ajax.php(188) in C:\xampp\htdocs\woo2\wp-content\plugins\unlimited-elements-for-elementor-premium\provider\provider_operations.class.php on line 19
+

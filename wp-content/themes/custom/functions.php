@@ -28,7 +28,7 @@ function add_styles()
 {
 ?>
     <link rel="stylesheet" href="<?= bloginfo('template_directory') ?>/assets/css/main.css" />
-<?php
+    <?php
 }
 add_action('wp_head', 'add_styles', 999999999);
 
@@ -82,3 +82,31 @@ if (class_exists('woocommerce')) {
 
     add_filter('woocommerce_sale_flash', 'plus_filter_woocommerce_sale_flash_amount', 11, 3);
 }
+
+
+if (function_exists('YITH_WCWL')) {
+    if (!function_exists('yith_wcwl_add_counter_shortcode')) {
+        function yith_wcwl_add_counter_shortcode()
+        {
+            add_shortcode('yith_wcwl_items_count', 'yith_wcwl_print_counter_shortcode');
+        }
+    }
+
+    if (!function_exists('yith_wcwl_print_counter_shortcode')) {
+        function yith_wcwl_print_counter_shortcode()
+        {
+    ?>
+            <span class="count"><?php echo esc_html(yith_wcwl_count_all_products()); ?></span>
+<?php
+        }
+    }
+    add_action('init', 'yith_wcwl_add_counter_shortcode');
+}
+
+function my_render_product_loop()
+{
+    do_action('woocommerce_shop_loop');
+
+    wc_get_template_part('content', 'product');
+}
+add_shortcode('my_render_product_loop', 'my_render_product_loop');

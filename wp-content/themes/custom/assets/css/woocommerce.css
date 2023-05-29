@@ -1,5 +1,5 @@
 .woocommerce-page div.product div.images {
-  width: unset !important;
+  /* width: unset !important; */
 }
 
 .woocommerce .onsale {
