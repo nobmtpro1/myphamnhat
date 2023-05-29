@@ -17,7 +17,8 @@
   font-weight: 700 !important;
 }
 
-.my-loop-product .add_to_cart_button {
+.my-loop-product .add_to_cart_button,
+.my-loop-product .product_type_grouped {
   /* display: none !important; */
   position: absolute !important;
   top: 180px !important;

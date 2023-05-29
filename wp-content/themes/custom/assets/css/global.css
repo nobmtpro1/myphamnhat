@@ -9,13 +9,3 @@ body {
 a:hover {
   text-decoration: none;
 }
-header,
-.demo,
-.demo p {
-  margin: 4em 0;
-  text-align: center;
-}
-
-.woocommerce-page div.product div.images {
-  width: unset !important;
-}

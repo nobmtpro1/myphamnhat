@@ -47,3 +47,38 @@ function register_elementor_widgets($widgets_manager)
 add_action('elementor/widgets/register', 'register_elementor_widgets');
 
 remove_action('woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5);
+
+
+
+/*woo sale amount*/
+if (class_exists('woocommerce')) {
+    function plus_filter_woocommerce_sale_flash_amount($output_html, $post, $product)
+    {
+        if ($product->get_type() == 'variable') {
+            $available_variations = $product->get_available_variations();
+            $maximumper = 0;
+            for ($i = 0; $i < count($available_variations); ++$i) {
+                $variation_id = $available_variations[$i]['variation_id'];
+                $variable_product1 = new WC_Product_Variation($variation_id);
+                $regular_price = $variable_product1->get_regular_price();
+                $sales_price = $variable_product1->get_sale_price();
+                $percentage = $sales_price ? round((1 -  $sales_price / $regular_price) * 100) : 0;
+                if ($percentage > $maximumper) {
+                    $maximumper = $percentage;
+                }
+            }
+            $output_html = '<span class="badge onsale perc">-' . $maximumper . '%</span>';
+        } else if ($product->get_type() == 'simple') {
+            $percentage = round((1 - $product->get_sale_price() / $product->get_regular_price()) * 100);
+            $output_html = '<span class="badge onsale perc">-' . $percentage . '%</span>';
+        } else if ($product->get_type() == 'external') {
+            $percentage = round((1 - $product->get_sale_price() / $product->get_regular_price()) * 100);
+            $output_html = '<span class="badge onsale perc">-' . $percentage . '%</span>';
+        } else {
+            $output_html = '<span class="badge onsale">' . esc_html__('Sale', 'theplus') . '</span>';
+        }
+        return $output_html;
+    };
+
+    add_filter('woocommerce_sale_flash', 'plus_filter_woocommerce_sale_flash_amount', 11, 3);
+}

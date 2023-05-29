@@ -1,0 +1,19 @@
+.woocommerce-page div.product div.images {
+  width: unset !important;
+}
+
+.woocommerce .onsale {
+  width: 50px !important;
+  height: 50px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px !important;
+  line-height: 1 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: var(--primary) !important;
+  top: 40px !important;
+  left: -10px !important;
+  right: unset !important;
+}
