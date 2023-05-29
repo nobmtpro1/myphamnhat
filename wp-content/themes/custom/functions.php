@@ -45,3 +45,5 @@ function register_elementor_widgets($widgets_manager)
     $widgets_manager->register(new \Elementor_table_course_Widget());
 }
 add_action('elementor/widgets/register', 'register_elementor_widgets');
+
+remove_action('woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5);

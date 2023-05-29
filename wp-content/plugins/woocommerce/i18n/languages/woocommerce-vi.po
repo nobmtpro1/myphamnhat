@@ -5,17 +5,17 @@ msgstr ""
 "Project-Id-Version: WooCommerce 7.7.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: \n"
-"Language-Team: Tiếng Việt\n"
+"Language-Team: Vietnamese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-17 11:51+0000\n"
+"PO-Revision-Date: 2023-05-29 01:43+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Loco-Version: 2.6.4; wp-6.2.1"
+"X-Loco-Version: 2.6.4; wp-6.2.2"
 
 #. translators: %s: date interval
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:485
@@ -48131,7 +48131,7 @@ msgstr ""
 #: includes/class-wc-frontend-scripts.php:578
 #: includes/wc-cart-functions.php:126 includes/wc-template-functions.php:2225
 msgid "View cart"
-msgstr "Xem giỏ hàng"
+msgstr "Xem giỏ hàng &rarr;"
 
 #: packages/woocommerce-blocks/build/wc-shipping-method-pickup-location.js:80
 msgid "View checkout page"
