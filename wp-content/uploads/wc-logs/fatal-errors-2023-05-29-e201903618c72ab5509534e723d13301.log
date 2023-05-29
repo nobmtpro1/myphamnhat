@@ -1,0 +1,2 @@
+2023-05-29T07:47:08+00:00 CRITICAL Out of memory (allocated 31457280) (tried to allocate 131072 bytes) in C:\xampp\htdocs\woo2\wp-content\plugins\elementskit\widgets\woo-mini-cart\woo-mini-cart.php on line 1035
+
