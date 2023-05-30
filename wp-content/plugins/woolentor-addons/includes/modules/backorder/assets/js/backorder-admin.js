@@ -13,7 +13,7 @@
         });
 
         // On change stock status
-        $( '#inventory_product_data select#_stock_status' ).on( 'change', function() {
+        $( '#inventory_product_data select#_stock_status,#inventory_product_data ._stock_status_field [name=_stock_status]' ).on( 'change', function() {
             if( $(this).val() == 'onbackorder' ){
                 $('#inventory_product_data .woolentor-backorder-fields').addClass( 'wl_stock_status--onbackorder' );
             } else{

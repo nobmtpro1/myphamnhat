@@ -43,10 +43,15 @@ class Woolentor_Backorder extends WC_Product{
         add_filter('woocommerce_get_availability_text', [ $this, 'filter_get_availability_text'], 10, 2 );
 
         // Render backorder label to the cart page
-        add_action('woocommerce_after_cart_item_name', [ $this, 'render_backorder_availability_cart_page'], 10, 2 );
+        // add_action('woocommerce_after_cart_item_name', [ $this, 'render_backorder_availability_cart_page'], 10, 2 );
+
+        add_filter( 'woocommerce_get_item_data', [ $this, 'render_backorder_availability_cart_page' ], 99, 2 );
 
         // Meta data display
         add_filter( 'woocommerce_order_item_get_formatted_meta_data', [ $this, 'item_get_formatted_meta_data' ], 10, 4 );
+
+         // Order Received page and Email template
+         add_action( 'woocommerce_order_item_meta_end', [ $this, 'order_item_meta_end' ], 10, 4 );
 
     }
 
@@ -55,7 +60,7 @@ class Woolentor_Backorder extends WC_Product{
      * Enqueue scripts
      */
     public function enqueue_scripts(){
-        if( is_cart() ){
+        if( is_cart() || is_checkout()){
             wp_enqueue_style( 'woolentor-backorder', plugin_dir_url( __FILE__ ) . 'assets/css/backorder.css', '', WOOLENTOR_VERSION, 'all' );
         }
     }
@@ -369,8 +374,56 @@ class Woolentor_Backorder extends WC_Product{
     /**
      * Render the backorder availability message on cart page
      */
-    public function render_backorder_availability_cart_page( $cart_item, $cart_item_key ){
+    // public function render_backorder_availability_cart_page( $cart_item, $cart_item_key ){
+    //     $product_data = $cart_item['data'];
+
+    //     if($product_data->is_type('simple')){
+    //         $product_id = $product_data->get_id();
+    //     } elseif( $product_data->is_type('variation') ){
+    //         $product_id = $product_data->get_parent_id();
+    //     }
+
+    //     if( $product_data->is_on_backorder() ){
+    //         echo '<p class="woolentor-backorder-notification backorder_notification">';
+    //         echo wp_kses_post($this->get_availability_message( $product_id ));
+    //         echo '</p>';
+    //     }
+    // }
+
+    public function render_backorder_availability_cart_page( $item_data, $cart_item ){
+
         $product_data = $cart_item['data'];
+
+        if($product_data->is_type('simple')){
+            $product_id = $product_data->get_id();
+        } elseif( $product_data->is_type('variation') ){
+            $product_id = $product_data->get_parent_id();
+        }
+
+        if( $product_data->is_on_backorder() ){
+            $item_data[] = array(
+                'name'      => 'woolentor_cart_backorder_availability',
+                'display'   => '<p class="woolentor-backorder-notification backorder_notification">'.wp_kses_post($this->get_availability_message( $product_id )).'</p>',
+                'value'     => 'wc_woolentor_back_order_content',
+            );
+        }
+
+        return $item_data;
+
+    }
+
+    /**
+     * Order Item Meta
+     *
+     * @param [int] $item_id
+     * @param [array] $item
+     * @param [object] $order
+     * @param [html] $plain_tex
+     * @return void
+     */
+    public function order_item_meta_end( $item_id, $item, $order, $plain_tex ){
+        
+        $product_data = $item->get_product();
 
         if($product_data->is_type('simple')){
             $product_id = $product_data->get_id();
@@ -383,6 +436,7 @@ class Woolentor_Backorder extends WC_Product{
             echo wp_kses_post($this->get_availability_message( $product_id ));
             echo '</p>';
         }
+        
     }
 
 

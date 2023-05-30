@@ -1,0 +1,51 @@
+.woocommerce .wishlist-title h2 {
+  color: var(--primary);
+}
+.wishlist_table {
+  border: none !important;
+}
+
+.wishlist_table th,
+.wishlist_table td {
+  font-size: 15px !important;
+  text-align: center !important;
+}
+
+@media only screen and (min-width: 1025px) {
+  .wishlist_table tr th:nth-child(3) {
+    width: 40% !important;
+  }
+  .wishlist_table .product-add-to-cart a{
+    color: black !important;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .wishlist_table {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .wishlist_table .additional-info-wrapper {
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+
+  .wishlist_table.mobile li table.additional-info,
+  .wishlist_table.mobile li .additional-info-wrapper .product-add-to-cart,
+  .wishlist_table.mobile li .additional-info-wrapper .product-add-to-cart a {
+    margin-bottom: 0 !important;
+    font-size: 15px !important;
+  }
+
+  .wishlist_table .additional-info-wrapper a {
+    color: black !important;
+  }
+
+  .wishlist_table li {
+    border-bottom: 1px rgba(0, 0, 0, 0.581) solid;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+  }
+}

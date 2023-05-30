@@ -1,0 +1,16 @@
+.elementor-widget-woocommerce-my-account
+  .e-my-account-tab
+  .woocommerce
+  .woocommerce-MyAccount-navigation
+  ul {
+  margin: 0 !important;
+}
+
+.elementor-widget-woocommerce-my-account
+  .e-my-account-tab:not(.e-my-account-tab__dashboard--custom)
+  .woocommerce
+  h2 {
+  color: var(--primary) !important;
+  margin-bottom: 0px !important;
+  text-align: center;
+}

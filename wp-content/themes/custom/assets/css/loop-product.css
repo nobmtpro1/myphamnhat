@@ -26,6 +26,9 @@ ins {
   text-decoration: none !important;
 }
 
+.my-loop-product .my-add-to-cart-string {
+  display: none;
+}
 /* .my-loop-product .add_to_cart_button,
 .my-loop-product .product_type_grouped,
 .my-loop-product .added_to_cart,

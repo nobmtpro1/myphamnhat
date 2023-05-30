@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: ShopLentor – WooCommerce Builder for Elementor & "
 "Gutenberg\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-14 03:12+0000\n"
+"POT-Creation-Date: 2023-05-25 09:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.6.4; wp-6.2\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
 "X-Domain: woolentor"
 
 #. %s: Product title
@@ -648,22 +648,22 @@ msgstr ""
 msgid "Background Type"
 msgstr ""
 
-#: includes/modules/backorder/class.backorder.php:455
+#: includes/modules/backorder/class.backorder.php:509
 msgid "Backorder Availability"
 msgstr ""
 
-#: includes/modules/backorder/class.backorder.php:442
+#: includes/modules/backorder/class.backorder.php:496
 msgid "Backorder Limit"
 msgstr ""
 
-#: includes/modules/backorder/class.backorder.php:446
+#: includes/modules/backorder/class.backorder.php:500
 msgid ""
 "Backorder limit. If this is a variable product this value will be used to "
 "control backorder limit for all variations, unless you define backorder "
 "limit at variation level."
 msgstr ""
 
-#: includes/modules/backorder/class.backorder.php:99
+#: includes/modules/backorder/class.backorder.php:104
 msgid "Backordered"
 msgstr ""
 
@@ -2492,7 +2492,7 @@ msgid ""
 "are a new customer, please proceed to the Billing section."
 msgstr ""
 
-#: includes/admin/include/diagnostic-data.php:388
+#: includes/admin/include/diagnostic-data.php:398
 #, php-format
 msgid ""
 "If you want to help us improve the %4$s%1$s%5$s plugin even more, please "
@@ -3182,12 +3182,16 @@ msgstr ""
 msgid "No shipping options were found for %s."
 msgstr ""
 
-#: includes/admin/include/diagnostic-data.php:394
+#: includes/admin/include/diagnostic-data.php:404
 msgid "No Thanks"
 msgstr ""
 
 #: classes/class.default_data.php:514
 msgid "No upsell products are available."
+msgstr ""
+
+#: includes/admin/include/diagnostic-data.php:109
+msgid "Nonce Varification fail"
 msgstr ""
 
 #: includes/admin/include/template-library.php:156
@@ -4452,7 +4456,7 @@ msgstr ""
 msgid "Separator Icon"
 msgstr ""
 
-#: includes/admin/include/diagnostic-data.php:389
+#: includes/admin/include/diagnostic-data.php:399
 #, php-format
 msgid ""
 "Server information (Web server, PHP version, MySQL version), WordPress "
@@ -4843,21 +4847,21 @@ msgid "Something is wrong! try again"
 msgstr ""
 
 #. 1: quantity in stock 2: current quantity
-#: includes/modules/backorder/class.backorder.php:192
+#: includes/modules/backorder/class.backorder.php:197
 #, php-format
 msgid ""
 "Sorry, \"%s\" has reached its maximum backorder limit — (%s available). You "
 "already have %s in your cart."
 msgstr ""
 
-#: includes/modules/backorder/class.backorder.php:134
+#: includes/modules/backorder/class.backorder.php:139
 #, php-format
 msgid ""
 "Sorry, \"%s\" has reached its maximum backorder limit. Orders can be placed "
 "for up to <b>%s</b> units."
 msgstr ""
 
-#: includes/modules/backorder/class.backorder.php:198
+#: includes/modules/backorder/class.backorder.php:203
 #, php-format
 msgid ""
 "Sorry, \"%s\" was not added to cart because it has reached the maximum "
@@ -5321,7 +5325,7 @@ msgstr ""
 msgid "Thank you for contacting with us"
 msgstr ""
 
-#: includes/admin/include/diagnostic-data.php:414
+#: includes/admin/include/diagnostic-data.php:424
 #, php-format
 msgid "Thank you very much for supporting %2$s%1$s%3$s."
 msgstr ""
@@ -5768,7 +5772,7 @@ msgstr ""
 msgid "View Cart"
 msgstr ""
 
-#: includes/modules/backorder/class.backorder.php:190
+#: includes/modules/backorder/class.backorder.php:195
 msgid "View cart"
 msgstr ""
 
@@ -6185,7 +6189,7 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: includes/admin/include/diagnostic-data.php:391
+#: includes/admin/include/diagnostic-data.php:401
 msgid "Yes, I Agree"
 msgstr ""
 

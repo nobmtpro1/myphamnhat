@@ -6,6 +6,16 @@ body {
   margin: 0 !important;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
+#my-body-wrap {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 a:hover {
   text-decoration: none;
 }

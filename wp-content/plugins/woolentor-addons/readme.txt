@@ -3,7 +3,7 @@ Contributors: hasthemes, htplugins, devitemsllc, zenaulislam, tarekht, aslamhasi
 Tags: Elementor, WooCommerce, WooCommerce Elementor, WooCommerce Builder, WooCommerce Product, Woo Builder, Variation Swatches, woocommerce blocks, Product Slider, Product Compare, Wishlist, Product Filter
 Requires at least: 4.7
 Tested up to: 6.2
-Stable tag: 2.6.2
+Stable tag: 2.6.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -1077,8 +1077,12 @@ Elementor Pro is not required. But you can use ShopLentor with Elementor free & 
 
 == Changelog ==
 
+= Version: 2.6.3 - Date: 28-05-2023 =
+* Added : Option to show back order product available date and send it to client email address after order completion.
+* Solved : Backorder field hide and showing issue in product edit screen.
+
 = Version: 2.6.2 - Date: 14-05-2023 =
-*  Solved : Post duplicate issue has been solved in post duplicator module.
+* Solved : Post duplicate issue has been solved in post duplicator module.
 * Compatibility : With latest WooComemrce and Latest Elelementor version.
 
 = Version: 2.6.1 - Date: 30-04-2023 =
