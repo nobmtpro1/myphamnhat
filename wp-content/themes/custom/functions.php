@@ -110,3 +110,13 @@ function my_render_product_loop()
     wc_get_template_part('content', 'product');
 }
 add_shortcode('my_render_product_loop', 'my_render_product_loop');
+
+add_filter('excerpt_length', function ($length) {
+    return 20;
+}, PHP_INT_MAX);
+
+function my_render_post_excerpt()
+{
+    echo (the_excerpt());
+}
+add_shortcode('my_render_post_excerpt', 'my_render_post_excerpt');
