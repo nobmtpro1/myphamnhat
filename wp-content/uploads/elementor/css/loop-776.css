@@ -1,0 +1,16 @@
+.elementor-776 .elementor-element.elementor-element-94287e3{--min-height:187px;--display:flex;--justify-content:center;--background-transition:0.3s;}.elementor-776 .elementor-element.elementor-element-f2de637{width:100%;max-width:100%;top:0px;z-index:-1;}body:not(.rtl) .elementor-776 .elementor-element.elementor-element-f2de637{left:0px;}body.rtl .elementor-776 .elementor-element.elementor-element-f2de637{right:0px;}.elementor-776 .elementor-element.elementor-element-f2de637 > .elementor-widget-container{background-color:#000000C7;}.elementor-776 .elementor-element.elementor-element-de0e61b{text-align:center;}.elementor-776 .elementor-element.elementor-element-de0e61b .elementor-heading-title{color:var( --e-global-color-secondary );font-size:17px;font-weight:700;text-shadow:0px 0px 10px rgba(0,0,0,0.3);}/* Start custom CSS for theme-post-featured-image, class: .elementor-element-f2de637 */.my-post-img img{
+    filter: brightness(80%) !important;
+}/* End custom CSS */
+/* Start custom CSS for shortcode, class: .elementor-element-949f881 */#my-post-excerpt{
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}/* End custom CSS */
+/* Start custom CSS for theme-post-featured-image, class: .elementor-element-f2de637 */.my-post-img img{
+    filter: brightness(80%) !important;
+}/* End custom CSS */
+/* Start custom CSS for shortcode, class: .elementor-element-949f881 */#my-post-excerpt{
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}/* End custom CSS */
