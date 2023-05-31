@@ -33,22 +33,25 @@ add_action('init', 'register_menus');
 function add_styles()
 {
 ?>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="<?= bloginfo('template_directory') ?>/assets/css/main.css" />
     <?php
 }
 add_action('wp_head', 'add_styles', 999999999);
 
 add_action('elementor/frontend/after_register_scripts', function () {
-    wp_register_script('script-1', get_template_directory_uri() . '/assets/js/main.js');
+    wp_register_script('script-1', 'https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js');
+    wp_register_script('script-2', get_template_directory_uri() . '/assets/js/main.js');
 
     wp_enqueue_script('script-1', 'script-1', [], '', true);
+    wp_enqueue_script('script-2', 'script-2', [], '', true);
 });
 
 function register_elementor_widgets($widgets_manager)
 {
-    require_once(__DIR__ . '/widgets/table_course.php');
+    require_once(__DIR__ . '/widgets/product_category.php');
 
-    $widgets_manager->register(new \Elementor_table_course_Widget());
+    $widgets_manager->register(new \Elementor_product_category_Widget());
 }
 add_action('elementor/widgets/register', 'register_elementor_widgets');
 
