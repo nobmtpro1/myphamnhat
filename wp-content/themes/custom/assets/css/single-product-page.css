@@ -1,0 +1,24 @@
+.woocommerce div.product form.cart .variations tr th,
+.woocommerce div.product form.cart .variations tr td {
+  text-align: left !important;
+  color: rgb(119, 119, 119) !important;
+  padding: 10px 0 !important;
+}
+.woocommerce div.product form.cart .variations tr td select {
+  padding: 5px 10px !important;
+  border: 1px rgb(119, 119, 119) solid !important;
+  font-size: 15px !important;
+  color: rgb(119, 119, 119) !important;
+  border-radius: 5px !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active{
+    border-top: 4px var(--primary) solid !important;
+}
+
+.woocommerce div.product.elementor ul.tabs{
+    padding: 0 !important;
+}
+.woocommerce .elementor-126 .elementor-element.elementor-element-acb3225 .woocommerce-tabs .woocommerce-Tabs-panel{
+    padding: 0 !important;
+}
