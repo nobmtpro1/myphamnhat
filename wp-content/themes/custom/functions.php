@@ -9,6 +9,7 @@ function my_custom_wc_theme_support()
     add_theme_support('wc-product-gallery-slider');
 }
 
+
 add_action('after_setup_theme', 'my_custom_wc_theme_support');
 
 add_theme_support('post-thumbnails');
@@ -20,6 +21,11 @@ function register_menus()
             'main-menu' => 'Main Menu'
         )
     );
+
+    register_sidebar([
+        'name' => 'loop_sidebar',
+        'id' => 'loop_sidebar',
+    ]);
 }
 add_action('init', 'register_menus');
 

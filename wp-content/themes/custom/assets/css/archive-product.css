@@ -1,0 +1,42 @@
+.bapf_head h3 {
+  color: #334862 !important;
+}
+
+.bapf_body ul {
+  padding: 5px 15px !important;
+  margin: 0 !important;
+  width: 100% !important;
+  border-left: 1px solid #ddd;
+}
+
+.bapf_body > ul {
+  padding-left: 5px !important;
+  border: none;
+}
+
+.bapf_body ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+}
+
+.bapf_body ul li label {
+  color: #334862 !important;
+  font-size: 18px !important;
+  padding-right: 20px;
+}
+
+.bapf_body ul li i {
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+
+.berocket_single_filter_widget{
+    margin-bottom: 40px !important;
+} 
