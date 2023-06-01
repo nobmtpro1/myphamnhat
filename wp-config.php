@@ -1,4 +1,7 @@
 <?php
+define( 'WPCACHEHOME', 'C:\xampp\htdocs\woo2\wp-content\plugins\wp-super-cache/' );
+define('WP_CACHE', true);
+
 
 /**
  * The base configuration for WordPress
