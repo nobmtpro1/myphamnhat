@@ -1,0 +1,7 @@
+.elementor-widget-woocommerce-cart .woocommerce table.cart td.product-name a {
+  font-size: 14px !important;
+}
+
+.elementor-widget-woocommerce-cart .woocommerce table.shop_table th {
+  white-space: nowrap !important;
+}

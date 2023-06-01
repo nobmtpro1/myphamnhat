@@ -6,6 +6,8 @@
 @import url("thank-you.css");
 @import url("archive-product.css");
 @import url("single-product-page.css");
+@import url("checkout-page.css");
+@import url("cart-page.css");
 
 .main-carousel .carousel-cell {
   width: 20%;
@@ -47,4 +49,13 @@
 }
 .main-carousel .flickity-page-dots {
   display: none !important;
+}
+
+@media only screen and (max-width: 1025px) {
+  .main-carousel .carousel-cell {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    width: 100%;
+    height: 300px;
+  }
 }

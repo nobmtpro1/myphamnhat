@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-31 09:15+0000\n"
+"PO-Revision-Date: 2023-06-01 02:28+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
@@ -40937,7 +40937,7 @@ msgstr ""
 #: packages/woocommerce-blocks/build/mini-cart-contents-block/footer-frontend.js:1
 #: packages/woocommerce-blocks/build/mini-cart-contents.js:5
 msgid "Subtotal"
-msgstr "Tổng đơn hàng"
+msgstr "Tạm tính"
 
 #: includes/abstracts/abstract-wc-order.php:2208
 #: includes/wc-template-functions.php:2247
@@ -40946,7 +40946,7 @@ msgstr "Tổng đơn hàng"
 #: packages/woocommerce-blocks/build/checkout-blocks/payment-frontend.js:5
 #: packages/woocommerce-blocks/build/checkout.js:23
 msgid "Subtotal:"
-msgstr "Tổng đơn hàng:"
+msgstr "Tạm tính:"
 
 #: includes/class-wc-countries.php:840
 msgid "Suburb"

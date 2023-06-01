@@ -10,12 +10,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-05-09T22:08:15+00:00\n"
-"PO-Revision-Date: 2023-05-17 11:40+0000\n"
+"PO-Revision-Date: 2023-05-31 09:15+0000\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: woocommerce\n"
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Loco-Version: 2.6.4; wp-6.2.1"
+"X-Loco-Version: 2.6.4; wp-6.2.2"
 
 #. translators: %s: date interval
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:485
@@ -10901,7 +10901,7 @@ msgstr[0] ""
 #. translators: %s: coupon code
 #: includes/class-wc-coupon.php:988 includes/class-wc-discounts.php:592
 msgid "Coupon \"%s\" does not exist!"
-msgstr ""
+msgstr "Mã giảm giá \"%s\" không tồn tại!"
 
 #. translators: Actual coupon code.
 #: includes/abstracts/abstract-wc-order.php:1155
@@ -27722,7 +27722,7 @@ msgstr ""
 #: templates/loop/no-products-found.php:21
 #: packages/woocommerce-blocks/build/legacy-template.js:11
 msgid "No products were found matching your selection."
-msgstr ""
+msgstr "Không tìm thấy sản phẩm nào phù hợp với lựa chọn của bạn."
 
 #: packages/woocommerce-blocks/build/product-category.js:6
 msgid "No products were found that matched your selection."
@@ -31397,7 +31397,7 @@ msgstr ""
 
 #: includes/class-wc-coupon.php:1091
 msgid "Please enter a coupon code."
-msgstr ""
+msgstr "Vui lòng nhập mã giảm giá"
 
 #: includes/gateways/paypal/includes/settings-paypal.php:86
 msgid ""
@@ -48131,7 +48131,7 @@ msgstr ""
 #: includes/class-wc-frontend-scripts.php:578
 #: includes/wc-cart-functions.php:126 includes/wc-template-functions.php:2225
 msgid "View cart"
-msgstr "Xem giỏ hàng"
+msgstr "Xem giỏ hàng &rarr;"
 
 #: packages/woocommerce-blocks/build/wc-shipping-method-pickup-location.js:80
 msgid "View checkout page"
