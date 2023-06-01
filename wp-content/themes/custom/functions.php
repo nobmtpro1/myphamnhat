@@ -13,7 +13,7 @@ function my_custom_wc_theme_support()
 add_action('after_setup_theme', 'my_custom_wc_theme_support');
 
 add_theme_support('post-thumbnails');
-add_filter('use_block_editor_for_post', '__return_false');
+// add_filter('use_block_editor_for_post', '__return_false');
 function register_menus()
 {
     register_nav_menus(
@@ -106,7 +106,7 @@ if (function_exists('YITH_WCWL')) {
         {
     ?>
             <span class="count"><?php echo esc_html(yith_wcwl_count_all_products()); ?></span>
-<?php
+    <?php
         }
     }
     add_action('init', 'yith_wcwl_add_counter_shortcode');
@@ -129,3 +129,4 @@ function my_render_post_excerpt()
     echo (the_excerpt());
 }
 add_shortcode('my_render_post_excerpt', 'my_render_post_excerpt');
+

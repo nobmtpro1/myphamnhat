@@ -1,6 +1,4 @@
 <?php
-define( 'WPCACHEHOME', 'C:\xampp\htdocs\woo2\wp-content\plugins\wp-super-cache/' );
-define('WP_CACHE', true);
 
 
 /**
@@ -24,6 +22,8 @@ define('WP_CACHE', true);
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'C:\xampp\htdocs\woo2\wp-content\plugins\wp-super-cache/' );
 define('DB_NAME', 'woo2');
 
 /** Database username */

@@ -1,0 +1,33 @@
+2023-06-01T07:00:10+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on null in C:\xampp\htdocs\woo2\wp-content\themes\custom\functions.php:137
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-includes\shortcodes.php(355): my_render_add_to_cart('', '', 'my_render_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\woo2\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(my_ren...', 'do_shortcode_ta...', '[my_render_add_...')
+#3 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[my_render_add_...')
+#4 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\base\controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\core\base\document.php(292): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\woo2\wp-content\plugins\pro-elements\modules in C:\xampp\htdocs\woo2\wp-content\themes\custom\functions.php on line 137
+
+2023-06-01T07:00:37+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on null in C:\xampp\htdocs\woo2\wp-content\themes\custom\functions.php:137
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-includes\shortcodes.php(355): my_render_add_to_cart('', '', 'my_render_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\woo2\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(my_ren...', 'do_shortcode_ta...', '[my_render_add_...')
+#3 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[my_render_add_...')
+#4 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\base\controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\inc in C:\xampp\htdocs\woo2\wp-content\themes\custom\functions.php on line 137
+
+2023-06-01T07:00:46+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart_url() on null in C:\xampp\htdocs\woo2\wp-content\themes\custom\functions.php:137
+Stack trace:
+#0 C:\xampp\htdocs\woo2\wp-includes\shortcodes.php(355): my_render_add_to_cart('', '', 'my_render_add_t...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\woo2\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(my_ren...', 'do_shortcode_ta...', '[my_render_add_...')
+#3 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\widgets\shortcode.php(130): do_shortcode('[my_render_add_...')
+#4 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\base\controls-stack.php(2268): Elementor\Widget_Shortcode->render()
+#5 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#6 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\includes\base\widget-base.php(750): Elementor\Widget_Base->render_content()
+#7 C:\xampp\htdocs\woo2\wp-content\plugins\elementor\inc in C:\xampp\htdocs\woo2\wp-content\themes\custom\functions.php on line 137
+

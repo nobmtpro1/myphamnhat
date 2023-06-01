@@ -72,9 +72,20 @@ nav.woocommerce-pagination ul li span.current {
   border: 2px solid transparent !important;
 }
 
-.elementor-widget-woocommerce-cart .woocommerce table.cart td.product-thumbnail a img{
-  width: 200px !important;
-  margin: 10px !important;
+.elementor-widget-woocommerce-cart
+  .woocommerce
+  table.cart
+  td.product-thumbnail {
+  width: 100px !important;
+  padding: 10px !important;
+}
+.elementor-widget-woocommerce-cart
+  .woocommerce
+  table.cart
+  td.product-thumbnail
+  a
+  img {
+  width: 100% !important;
 }
 
 @media only screen and (max-width: 1025px) {
