@@ -7,7 +7,7 @@
 @import url("archive-product.css");
 @import url("single-product-page.css");
 @import url("checkout-page.css");
-@import url("cart-page.css");
+/* @import url("cart-page.css"); */
 
 .main-carousel .carousel-cell {
   width: 20%;
